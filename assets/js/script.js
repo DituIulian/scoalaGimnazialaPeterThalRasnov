@@ -18,3 +18,4 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error('Eroare la încărcarea header-ului:', error));
 });
+
