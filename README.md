@@ -2,5 +2,5 @@
 
 Proiect GT
 
-rm -rf .git
-git clone https://github.com/DituIulian/scoalaGimnazialaPeterThalRasnov.git)
+rm -rf .git  
+git clone https://github.com/DituIulian/scoalaGimnazialaPeterThalRasnov.git
