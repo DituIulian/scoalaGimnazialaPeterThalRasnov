@@ -19,3 +19,13 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Eroare la încărcarea header-ului:', error));
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    let currentPage = window.location.pathname; // Obține calea URL-ului curent
+    let navLinks = document.querySelectorAll(".topnav a"); // Selectează toate link-urile din navbar
+
+    navLinks.forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active"); // Adaugă clasa "active" link-ului curent
+        }
+    });
+});
