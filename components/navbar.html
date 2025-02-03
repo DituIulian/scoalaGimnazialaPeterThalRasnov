@@ -1,14 +1,74 @@
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+    <a class="navbar-brand" href="#">Logo</a>
 
-<div class="container nav-bar ">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <div class="topnav" id="myTopnav">
-        <a href="/pages/resurse.html">Resurse</a>
-        <a href="/pages/oferta-educationala.html">Oferta educationala</a>
-        <a href="/pages/inscrieri.html">Inscrieri</a>
-        <a href="/pages/despre-noi.html">Despre noi</a>
-        <a href="/index.html">Acasa</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <!--Toggler ecrane-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <!-- Acasa -->
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="/index.html">
+                    Acasa
+                </a>
+              
+            </li>
+
+            <!-- Resurse -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/pages/resurse.html" id="resurseDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Resurse
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="resurseDropdown">
+                    <li><a class="dropdown-item" href="/pages/orar.html">Orar</a></li>
+                    <li><a class="dropdown-item" href="/pages/biblioteca-digitala.html">Bibloteca digitala</a></li>
+                    <li><a class="dropdown-item" href="/pages/ghid-parinti-elevi.html">Ghiduri parinte/elev</a></li>
+                </ul>
+            </li>
+
+            <!-- Oferta educationala -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/pages/oferta-educationala.html" id="ofertaDropdown"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Oferta educationala
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="ofertaDropdown">
+                    <li><a class="dropdown-item" href="/pages/niveluri-de-invatamant.html">Niveluri de invatamant</a></li>
+                    <li><a class="dropdown-item" href="/pages/activitati-si-proiecte.html">Activitati si proiecte</a></li>
+                    <li><a class="dropdown-item" href="/pages/rezultate-en.html">Rezultate EN</a></li>
+                </ul>
+            </li>
+
+            <!-- Inscrieri -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/pages/inscrieri.html" id="inscrieriDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Inscrieri
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="inscrieriDropdown">
+                    <li><a class="dropdown-item" href="/pages/ghid-calendar.html">Ghid + calendar</a></li>
+                    <li><a class="dropdown-item" href="/pages/cerinte.html">Cerinte</a></li>
+                </ul>
+            </li>
+
+            <!-- Despre noi -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/pages/despre-noi.html" id="despreDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Despre noi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="despreDropdown">
+                    <li><a class="dropdown-item" href="/pages/istoricul-scolii.html">Istoricul scolii</a></li>
+                    <li><a class="dropdown-item" href="/pages/echipa-manageriala.html">Echipa manageriala</a></li>
+                    <li><a class="dropdown-item" href="/pages/testimoniale.html">Testimoniale</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </div>
+</nav>

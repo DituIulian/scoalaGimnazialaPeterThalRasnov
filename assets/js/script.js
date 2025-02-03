@@ -1,14 +1,3 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch('/components/navbar.html') 
@@ -19,13 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Eroare la încărcarea header-ului:', error));
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    let currentPage = window.location.pathname; // Obține calea URL-ului curent
-    let navLinks = document.querySelectorAll(".topnav a"); // Selectează toate link-urile din navbar
-
-    navLinks.forEach(link => {
-        if (link.getAttribute("href") === currentPage) {
-            link.classList.add("active"); // Adaugă clasa "active" link-ului curent
-        }
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    fetch('/components/footer.html') 
+        .then(response => response.text()) 
+        .then(data => {
+            document.getElementById("footer-container").innerHTML = data; 
+        })
+        .catch(error => console.error('Eroare la încărcarea header-ului:', error));
 });
+
