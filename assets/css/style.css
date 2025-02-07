@@ -1,16 +1,8 @@
 .main-container {
     display: flex;
+    margin-top: 120px;
     flex-direction: column;
-    min-height: 80dvh;
+    
 
 }
 
-.site-footer {
-    margin-top: auto;
-    background-color: #6F5ACA;
-
-}
-
-.navbar {
-    background-color: #6F5ACA;
-}
