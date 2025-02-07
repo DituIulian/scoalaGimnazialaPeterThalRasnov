@@ -1,74 +1,47 @@
-<nav class="navbar navbar-expand-lg">
-<div class="container">
-    <a class="navbar-brand" href="#">Logo</a>
-
-    <!--Toggler ecrane-->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-            <!-- Acasa -->
-            <li class="nav-item dropdown">
-                <a class="nav-link" href="/index.html">
-                    Acasa
-                </a>
-              
-            </li>
-
-            <!-- Resurse -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/pages/resurse.html" id="resurseDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Resurse
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="resurseDropdown">
-                    <li><a class="dropdown-item" href="/pages/orar.html">Orar</a></li>
-                    <li><a class="dropdown-item" href="/pages/biblioteca-digitala.html">Bibloteca digitala</a></li>
-                    <li><a class="dropdown-item" href="/pages/ghid-parinti-elevi.html">Ghiduri parinte/elev</a></li>
+<link rel="stylesheet" href="/assets/css/header.css">
+<nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+            <img src="/assets/images/LOGO1.2.png" alt="logo" width="100" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <!-- Test deasupra butoanelor expandate toggle ! De modificat -->
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Peter Thal Rasnov</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/noutati.html">Noutăți</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/despre-noi.html">Despre noi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/inscrieri.html">Înscrieri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/oferta-educationala.html">Ofertă educațională</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Resurse
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item hover-mov" href="/pages/orar.html">Orar</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item hover-galben" href="/pages/biblioteca-digitala.html">Biblioteca digitală</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item hover-roz" href="/pages/ghidul-elevului.html">Ghidul elevului</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-
-            <!-- Oferta educationala -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/pages/oferta-educationala.html" id="ofertaDropdown"
-                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Oferta educationala
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="ofertaDropdown">
-                    <li><a class="dropdown-item" href="/pages/niveluri-de-invatamant.html">Niveluri de invatamant</a></li>
-                    <li><a class="dropdown-item" href="/pages/activitati-si-proiecte.html">Activitati si proiecte</a></li>
-                    <li><a class="dropdown-item" href="/pages/rezultate-en.html">Rezultate EN</a></li>
-                </ul>
-            </li>
-
-            <!-- Inscrieri -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/pages/inscrieri.html" id="inscrieriDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Inscrieri
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="inscrieriDropdown">
-                    <li><a class="dropdown-item" href="/pages/ghid-calendar.html">Ghid + calendar</a></li>
-                    <li><a class="dropdown-item" href="/pages/cerinte.html">Cerinte</a></li>
-                </ul>
-            </li>
-
-            <!-- Despre noi -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/pages/despre-noi.html" id="despreDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Despre noi
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="despreDropdown">
-                    <li><a class="dropdown-item" href="/pages/istoricul-scolii.html">Istoricul scolii</a></li>
-                    <li><a class="dropdown-item" href="/pages/echipa-manageriala.html">Echipa manageriala</a></li>
-                    <li><a class="dropdown-item" href="/pages/testimoniale.html">Testimoniale</a></li>
-                </ul>
-            </li>
-        </ul>
+             
+            </div>
+        </div>
     </div>
-</div>
 </nav>

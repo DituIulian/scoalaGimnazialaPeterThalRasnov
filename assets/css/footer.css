@@ -1,0 +1,31 @@
+ .footer {
+     position: relative;
+     background: linear-gradient(to bottom, #6F5ACA, #0A2E5C);
+     height: 625px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     clip-path: ellipse(80% 60% at 50% 100%);
+     
+ }
+  
+  .footer-text-scoala{
+    font-family: 'Tillana';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: left;
+    margin-bottom:  -8%;
+  
+  } 
+  
+  .footer-text-peter-thal {
+      font-family: 'Tillana';
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 120px;
+      text-align: left;
+ 
+  }
+
+  
