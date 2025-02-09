@@ -17,3 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Eroare la încărcarea header-ului:', error));
 });
 
+document.querySelectorAll('.flip-card').forEach(card => {
+    card.addEventListener('click', () => {
+        card.classList.toggle('flipped');
+    });
+});
