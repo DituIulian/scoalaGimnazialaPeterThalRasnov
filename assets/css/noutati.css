@@ -21,8 +21,8 @@
   }
   /* imaginea din banner */
    .image-1 > img{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 50%;
     border: white 4px solid;
    }
@@ -44,6 +44,8 @@ p , h1 , h3 {
 
    }
 
+
+/* culori pentru fiecare patrat si border */
 .square-1 {
   border: #AF9FF1 10px solid;
 }
@@ -82,7 +84,7 @@ p , h1 , h3 {
   border: #63D784 10px solid;
 }
 
-
+/* forma si gradient pentru sectiunea de noutati */
 
 .noutati{
   background:
