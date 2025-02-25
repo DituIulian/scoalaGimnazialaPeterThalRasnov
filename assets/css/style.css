@@ -21,7 +21,6 @@ html, body {
   /* Stilizare scrollbar */
  ::-webkit-scrollbar {
      width: 12px;
-     /* Lățimea scrollbar-ului */
  }
 
  ::-webkit-scrollbar-track {
@@ -31,17 +30,14 @@ html, body {
  ::-webkit-scrollbar-thumb {
      background: #B8D7FF;
      border-radius: 12px;
-     border: 3px solid transparent;
-     /* Micșorează thumb-ul vizual */
      background-clip: padding-box;
-     /* Asigură că border-ul nu afectează culoarea thumb-ului */
+ 
  }
 
  ::-webkit-scrollbar-thumb:hover {
      background: #0A2E5C;
  }
 
- /* Ascunde scrollbar-ul pe mobil */
  @media (max-width: 768px) {
      ::-webkit-scrollbar {
          display: none;
