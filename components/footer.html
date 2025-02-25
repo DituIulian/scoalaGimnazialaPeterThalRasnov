@@ -4,7 +4,7 @@
   <!-- Cardul cu adresa de e-mail -->
   <div class="flip-card flip-card-email">
     <div class="flip-card-inner">
-      <div class="flip-card-email-front" >
+      <div class="flip-card-email-front">
         <img src="/assets/images/e-mail.png" alt="Icon" />
         <p>
           Lasă-ne <br />
@@ -13,11 +13,15 @@
       </div>
       <div class="flip-card-email-back" onclick="copyToClipboard(this)">
         <img src="/assets/images/e-mail.png" alt="Icon" />
-        <p class="text-to-copy" data-value="Adresă de email 
-        copiată!">
-          rasnovgenerala2 <br />
-          @yahoo.com
-        </p>
+
+        <button
+          onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=rasnovgenerala2@yahoo.com', '_blank')"
+        >
+          <p>
+            rasnovgenerala2 <br />
+            @yahoo.com
+          </p>
+        </button>
       </div>
     </div>
   </div>
@@ -45,7 +49,9 @@
       </div>
       <div class="flip-card-adresa-back" onclick="copyToClipboard(this)">
         <img src="/assets/images/adresa.png" alt="Icon" />
-        <p class="text-to-copy" data-value="Adresă copiată!">Strada Izvor Nr. 10</p>
+        <p class="text-to-copy" data-value="Adresă copiată!">
+          Strada Izvor Nr. 10
+        </p>
       </div>
     </div>
   </div>
@@ -56,22 +62,25 @@
     <!--Grid row-->
     <div class="row h-100 justify-content-center align-items-center">
       <!--Grid column-->
-      <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-end text-start">
-          <a>
-            <img
-              src="/assets/images/logo-crop.png"
-              class="footer-logo"
-              alt="logo"
-            />
-          </a>
-          <div class="footer-text">
-            <div class="footer-text-scoala">Școala gimnazială</div>
-            <div class="footer-text-peter-thal">Peter Thal</div>
-            
-          </div>
+      <div
+        class="col-lg-6 col-md-12 d-flex justify-content-center align-items-end text-start"
+      >
+        <a>
+          <img
+            src="/assets/images/logo-crop.png"
+            class="footer-logo"
+            alt="logo"
+          />
+        </a>
+        <div class="footer-text">
+          <div class="footer-text-scoala">Școala gimnazială</div>
+          <div class="footer-text-peter-thal">Peter Thal</div>
+        </div>
       </div>
 
-      <div class="social-links col-lg-6 col-md-12 d-flex justify-content-center align-items-end">
+      <div
+        class="social-links col-lg-6 col-md-12 d-flex justify-content-center align-items-end"
+      >
         <a
           href="https://www.facebook.com/peterthalrasnov/?locale=ro_RO"
           class="facebook-link"
@@ -99,24 +108,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col d-flex justify-content-center align-items-center text-center">
-        <a href="/pages/termeni-si-conditii.html" class="termeni-si-conditii" target="_blank">
+      <div
+        class="col d-flex justify-content-center align-items-center text-center"
+      >
+        <a
+          href="/pages/termeni-si-conditii.html"
+          class="termeni-si-conditii"
+          target="_blank"
+        >
           Termeni și condiții.
         </a>
       </div>
-    </div> 
-   
-    
-     
-          
-  </div> <!-- Grid container -->
-            
+    </div>
+  </div>
+  <!-- Grid container -->
 </footer>
 
 <script src="/assets/js/script.js"></script>
 
 <div id="cookie-banner" class="cookie-banner">
-  <p>Acest site folosește cookie-uri pentru a îmbunătăți experiența utilizatorilor.
+  <p>
+    Acest site folosește cookie-uri pentru a îmbunătăți experiența
+    utilizatorilor.
     <a href="/pages/politica-cookie">Află mai multe</a>
   </p>
   <button id="accept-cookies">Accept</button>

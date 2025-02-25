@@ -83,6 +83,11 @@
       font-size: calc(1rem + .2vw);
     }
 
+.banner-text {
+  margin-bottom: 5rem;
+}
+    
+
 }
 
 /* culori pentru fiecare patrat si border */
