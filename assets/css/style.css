@@ -1,8 +1,45 @@
 .main-container {
     display: flex;
-    margin-top: 120px;
     flex-direction: column;
+    flex: 1;
+    margin-top: 100px;
     margin-bottom: 140px;
-    
+    color: #0A2E5C;
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar .nav-link.active {
+    background-color: #0A2E5C; 
+    color: white !important; 
+    
+  }
+
+  /* Stilizare scrollbar */
+ ::-webkit-scrollbar {
+     width: 12px;
+ }
+
+ ::-webkit-scrollbar-track {
+     background: transparent;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: #B8D7FF;
+     border-radius: 12px;
+     background-clip: padding-box;
+ 
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+     background: #0A2E5C;
+ }
+
+ @media (max-width: 768px) {
+     ::-webkit-scrollbar {
+         display: none;
+     }
+ }
